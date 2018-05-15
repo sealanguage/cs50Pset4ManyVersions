@@ -4,6 +4,7 @@
 
 // aliases for C/C++ primitive data types
 // https://msdn.microsoft.com/en-us/library/cc230309.aspx
+// https://msdn.microsoft.com/en-us/library/cc230309.aspx%20typedef%20uint8_t%20BYTE;
 typedef uint8_t  BYTE;
 typedef uint32_t DWORD;
 typedef int32_t  LONG;
@@ -23,6 +24,7 @@ BITMAPFILEHEADER;
 
 // information about the dimensions and color format
 // https://msdn.microsoft.com/en-us/library/dd183376(v=vs.85).aspx
+// bitmapfileheader  https://msdn.microsoft.com/en-us/library/dd183374(v=vs.85).aspx
 typedef struct
 {
     DWORD biSize;
@@ -41,6 +43,7 @@ BITMAPINFOHEADER;
 
 // relative intensities of red, green, and blue
 // https://msdn.microsoft.com/en-us/library/dd162939(v=vs.85).aspx
+// rgbtriple  https://msdn.microsoft.com/en-us/library/dd162939(v=vs.85).aspx
 typedef struct
 {
     BYTE rgbtBlue;
